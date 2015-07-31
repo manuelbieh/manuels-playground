@@ -27,11 +27,11 @@ app.use('/components', serveStatic('./components'));
 app.get('/', function(req, res) {
 
     var reactApp = React.renderToString(Hello({
-        name: "Welt"
+        name: "Manuel"
     }));
 
     var reactApp2 = React.renderToString(Hello({
-        name: "World"
+        name: "Manuel"
     }));
 
     res.render('test', {
