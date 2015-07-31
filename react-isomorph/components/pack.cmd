@@ -1,0 +1,1 @@
+webpack --entry .\Client.js --output-file out.js
